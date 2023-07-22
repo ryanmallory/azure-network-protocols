@@ -3,7 +3,7 @@
 </p>
 
 <h1>Inspecting Traffic Between Azure Virtual Machines</h1>
-In this project, I observed various network traffic between Azure virtual machines with Wireshark and experimented with Network Security Groups. <br />
+In this project, I observe various network traffic between Azure virtual machines with Wireshark and experiment with Network Security Groups. <br />
 
 
 <h2>Video Demonstration</h2>
