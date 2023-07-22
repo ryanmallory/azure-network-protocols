@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
 </p>
 
-<h1>Inspecting Traffic Between Azure Virtual Machines</h1>
+<h1>Inspecting Network Traffic Between Azure Virtual Machines</h1>
 In this project, I observe various network traffic between Azure virtual machines with Wireshark and experiment with Network Security Groups. <br />
 
 
