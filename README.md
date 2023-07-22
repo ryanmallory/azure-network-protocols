@@ -19,7 +19,7 @@ In this project, I observe various network traffic between Azure virtual machine
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10 (22H2)
+- Windows 10 Pro
 - Ubuntu Server 22.04
 
 <h2>High-Level Steps</h2>
