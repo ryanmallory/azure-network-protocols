@@ -59,7 +59,7 @@ Once I was logged in to VM1, I downloaded and installed Wireshark. Wireshark is 
 <img src="https://i.imgur.com/EKxk84b.jpg" height="75%" width="75%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-With Wireshark now installed, I opened the application and filtered for ICMP (Internet Control Message Protocol) traffic (green bar near the top of the screen) and opened Command Prompt. Because the Ping command uses ICMP, I continuously pinged VM2's private IP address, which was 10.0.0.5. You can see that Wireshark displays information for each ping request (VM1 to VM2) and reply (VM2 to VM1).
+With Wireshark now installed, I opened the application and filtered for ICMP (Internet Control Message Protocol) traffic (green bar near the top of the screen) and opened Command Prompt. In order to send ICMP traffic over the network, I continuously pinged VM2's private IP address, which was 10.0.0.5. You can see that Wireshark displays information for each ping request (VM1 to VM2) and reply (VM2 to VM1).
 </p>
 <br />
 
