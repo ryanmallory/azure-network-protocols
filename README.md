@@ -112,7 +112,7 @@ In order to view DHCP traffic, I filtered for DHCP in Wireshark and used the “
 <img src="https://i.imgur.com/fYafCBE.jpg" height="75%" width="75%"/>
 </p>
 <p>
-After that, I filtered for DNS (Domain Name System) traffic and used the nslookup command to look up amazon.com's IP address. In Wireshark, we can see the IP address of VM1's DNS server (168.63.129.16), as well as queries for A and AAAA records (associated with domain name-to-IPv4 and IPv6 translation, respectively).
+Next, I filtered for DNS (Domain Name System) traffic and used the nslookup command to look up amazon.com's IP address. In Wireshark, we can see the IP address of VM1's DNS server (168.63.129.16), as well as queries for A and AAAA records (associated with domain name-to-IPv4 and IPv6 translation, respectively).
 </p>
 <br />
 
