@@ -3,12 +3,12 @@
 </p>
 
 <h1>Exploring Networking Concepts in Azure</h1>
-In this project, I observe various network traffic (ICMP, SSH, DHCP, DNS, RDP) between Azure virtual machines using Wireshark and practice creating rules in a Network Security Group. <br />
+In this project, I inspect various types of network traffic (ICMP, SSH, DHCP, DNS, RDP) between Azure virtual machines using Wireshark and practice creating rules in a Network Security Group. <br />
 
 <h2>Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Network Security Groups)
-- Various Command-Line Tools
+- Various Command Line Tools
 - Various Network Protocols (ICMP, SSH, DHCP, DNS, RDP)
 - Wireshark (Protocol Analyzer)
 
@@ -20,15 +20,14 @@ In this project, I observe various network traffic (ICMP, SSH, DHCP, DNS, RDP) b
 <h2>High-Level Steps</h2>
 
 - Create 2 virtual machines in Microsoft Azure, one running Windows 10 (named "VM1") and the other running Ubuntu ("VM2")
--  Connect to the Windows 10 VM (VM1) using Remote Desktop
+-  Log into the Windows 10 VM (VM1) using Remote Desktop
 -  Install and open Wireshark on VM1
 -  Continuously ping VM2, create an inbound rule in VM2's Network Security Group to deny ICMP traffic, observe the results in Wireshark
 -  Re-enable ICMP traffic in VM2's Network Security Group, observe the results in Wireshark
--  Use the SSH command to connect to VM2's terminal, observe SSH traffic in Wireshark, exit SSH
+-  Use the SSH command to remotely access VM2's command line, observe SSH traffic in Wireshark, exit SSH
 -  Use the ipconfig /renew command to request a new IP address, observe DHCP traffic in Wireshark
 -  Use the nslookup command to translate popular domain names, observe DNS traffic in Wireshark
 -  Observe ongoing RDP traffic in Wireshark
--  Delete Resource Groups in Azure
 
 <h2>Actions and Observations</h2>
 
